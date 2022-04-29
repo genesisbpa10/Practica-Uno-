@@ -2,7 +2,7 @@ import './estilos.css'
 
 function Formulario(){
     return(
-        <div class='container-formulario'>
+        <div className='container-formulario'>
             <form className='formulario'>
                 <p>Nombre y apellido:</p>
                 <input className='field' type="text" required></input>
